@@ -48,6 +48,8 @@ public class Student {
         this.firstName = "Vlada";
         this.lastName = "Golubovic";
         this.yearOfBirth = 1989;
+        this.course = new Course();
+        this.computer = new Computer();
 
     }
 
