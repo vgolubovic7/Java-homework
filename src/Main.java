@@ -6,13 +6,13 @@ import computer.Computer;
 public class Main {
 
     public static void main(String[] args) {
-        Student Student = new Student();
-        Student.info();
+        Student defaultStudent = new Student();
+        defaultStudent.info();
 
-        Student.setFirstName("Vladimir");
-        Student.setLastName("Petrovic");
-        Student.setYearOfBirth(1980);
-        Student.info();
+        defaultStudent.setFirstName("Vladimir");
+        defaultStudent.setLastName("Golubović");
+        defaultStudent.setYearOfBirth(1990);
+        defaultStudent.info();
         
        
         
