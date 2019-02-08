@@ -39,9 +39,9 @@ public class Student {
         return course;
     }
 
+   
     public Computer getComputer() {
-        return computer;
-        
+        return computer; 
     }
 
     public Student() {
