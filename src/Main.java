@@ -1,6 +1,7 @@
 
 import student.Student;
 import course.Course;
+import computer.Computer;
 
 public class Main {
 
@@ -12,6 +13,9 @@ public class Main {
         Student.setLastName("Petrovic");
         Student.setYearOfBirth(1980);
         Student.info();
+        
+       
+        
 
     }
 
